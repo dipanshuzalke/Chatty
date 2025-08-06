@@ -1,42 +1,111 @@
-# ✨ Full Stack Realtime Chat App ✨
+# 🗨️ Real-Time Chat App with Admin Panel
 
-![Demo App](/frontend/public/screenshot-for-readme.png)
+A full-stack MERN (MongoDB, Express, React, Node.js) based real-time chat application that supports one-to-one messaging, live online user status, and includes an admin dashboard to manage users efficiently.
 
-[Video Tutorial on Youtube](https://youtu.be/ntKkVrQqBYY)
+---
 
-Highlights:
+## 🚀 Features
 
-- 🌟 Tech stack: MERN + Socket.io + TailwindCSS + Daisy UI
-- 🎃 Authentication && Authorization with JWT
-- 👾 Real-time messaging with Socket.io
-- 🚀 Online user status
-- 👌 Global state management with Zustand
-- 🐞 Error handling both on the server and on the client
-- ⭐ At the end Deployment like a pro for FREE!
-- ⏳ And much more!
+### 💬 Chat System
+- Real-time **1:1 private chat**
+- Live message delivery using **Socket.IO**
+- Message history persistence
 
-### Setup .env file
+### 🟢 Online Status
+- Displays users’ **online/offline** status in real-time
+- Automatically updates on login/logout or disconnect
 
-```js
-MONGODB_URI=...
-PORT=5001
-JWT_SECRET=...
+### 👤 User Profile
+- View & update user profile info
+- Display name, avatar, email, etc.
 
-CLOUDINARY_CLOUD_NAME=...
-CLOUDINARY_API_KEY=...
-CLOUDINARY_API_SECRET=...
+### 🔐 Admin Panel
+- **Only accessible to admin users**
+- **CRUD operations** on users: Add, Edit, Delete
+- Role-based protection using protected routes
 
-NODE_ENV=development
+---
+
+## 🛠️ Tech Stack
+
+| Frontend            | Backend           | Database   | Realtime  |
+|---------------------|-------------------|------------|-----------|
+| React (Vite)        | Node.js + Express | MongoDB    | Socket.IO |
+
+---
+
+## ⚙️ Setup Instructions
+
+### 1. Clone the Repository
+```bash
+git clone https://github.com/yourusername/chatty.git
+cd chatty
+````
+
+### 2. Backend Setup
+
+```bash
+cd backend
+npm install
+# Set environment variables in .env file
+npm run dev
 ```
 
-### Build the app
+### 3. Frontend Setup
 
-```shell
-npm run build
+```bash
+cd frontend
+npm install
+npm run dev
 ```
 
-### Start the app
+### 4. Environment Variables
 
-```shell
-npm start
+Create `.env` in `/backend`:
+
 ```
+PORT=5000
+MONGODB_URI=mongodb://localhost:27017/chatapp
+JWT_SECRET=your_secret_key
+```
+
+---
+
+## 🔐 Admin Access
+
+* Admin routes are protected.
+* Only users with role `admin` can access the Admin Panel.
+* If you don’t have an admin account, manually update a user’s role in MongoDB.
+
+---
+
+## 📂 Project Structure
+
+```
+├── backend
+│   ├── controllers
+│   ├── models
+│   ├── routes
+│   └── utils
+├── frontend
+│   ├── components
+│   ├── pages
+│   ├── store
+│   └── hooks
+```
+
+---
+
+## 📸 Screenshots (Add later)
+
+* Chat Page
+* Online User Indicator
+* Admin Panel (User Management)
+* Profile Page
+
+---
+
+## 🧑‍💻 Author
+
+Built by [Dipanshu Zalke](https://dipanshuzalke.xyz)
+
