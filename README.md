@@ -98,7 +98,8 @@ JWT_SECRET=your_secret_key
 
 ## 📸 Screenshots (Add later)
 
-* Chat Page
+* Chat Page<img width="1920" height="912" alt="download" src="https://github.com/user-attachments/assets/25daa08f-08e5-4c0b-a621-07b3734c490f" />
+
 * Online User Indicator
 * Admin Panel (User Management)
 * Profile Page
