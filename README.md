@@ -4,6 +4,12 @@ A full-stack MERN (MongoDB, Express, React, Node.js) based real-time chat applic
 
 ---
 
+## 🔗 Live Demo
+
+🔗 [Live App](https://chatty-one-nu.vercel.app/)
+
+---
+
 ## 🚀 Features
 
 ### 💬 Chat System
@@ -98,11 +104,14 @@ JWT_SECRET=your_secret_key
 
 ## 📸 Screenshots (Add later)
 
-* Chat Page<img width="1920" height="912" alt="download" src="https://github.com/user-attachments/assets/25daa08f-08e5-4c0b-a621-07b3734c490f" />
+* Chat Page<img width="1920" height="1080" alt="Screenshot (509)" src="https://github.com/user-attachments/assets/e1377c55-bbd5-452c-a094-07974e58bc8b" />
 
-* Online User Indicator
-* Admin Panel (User Management)
-* Profile Page
+* Online User Indicator<img width="1920" height="1080" alt="Screenshot (510)" src="https://github.com/user-attachments/assets/a01912ab-d5d7-4a8a-a200-0f4a28f50e1e" />
+
+* Admin Panel (User Management)<img width="1920" height="1080" alt="Screenshot (511)" src="https://github.com/user-attachments/assets/a86037e9-beca-4357-a416-1a9b7be87009" />
+
+* Profile Page<img width="1920" height="1080" alt="Screenshot (512)" src="https://github.com/user-attachments/assets/61decc6b-f9c3-4d4e-9c2c-fc6698fdd89c" />
+
 
 ---
 
